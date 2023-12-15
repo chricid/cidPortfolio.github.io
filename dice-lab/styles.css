@@ -1,0 +1,73 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #AA998F;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #D1BE9C;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7D4F50;
+  border-style: groove;
+  border-color:#502F4C ;
+  border-radius: 25px;
+}
+
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #F9F4F5;
+}
+
+
+#finalBalance{
+  color: #502F4C;
+}
+
+p {
+  color: #7D4F50;
+}
+
+img {
+  width: 80%;
+  background-color: #7D4F50;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+  border-style: groove;
+  border-color:#502F4C ;
+  border-radius: 25px;
+}
+
+
+.myBtn {
+  margin: 30px;
+  background-color:#C8B8DB;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: large;
+  width: 50%;
+  height: 200%;
+  padding: 10px 25px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #F9EAE1;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+}

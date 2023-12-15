@@ -1,0 +1,218 @@
+h1{
+    font-family: 'Playpen Sans', cursive;
+    color: #6a707a;
+}
+
+h2{
+    font-family: 'Playpen Sans', cursive;
+    color: #6a707a;
+}
+
+p{
+    font-family: 'Playpen Sans', cursive;
+    color: #6a707a;
+}
+
+h5{
+    font-family: 'Playpen Sans', cursive;
+    color: #6a707a;
+}
+
+
+/*navbar*/
+#intro{
+    padding: 0rem 0rem;
+}
+
+.logoImg{
+    width: 5%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.navbar-toggler{
+    border-color: #9da6b3;
+
+}
+
+
+.navbar-brand{
+    font-family: 'Playpen Sans', cursive;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+}
+
+.intro-greeting{
+    text-align: center;
+    padding: 25% 15%;
+}
+
+.gradient-custom{
+        /* fallback for old browsers */
+        background: #c6b2f3;
+      
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #c6b2f3, #e4edf8)
+      
+}
+
+
+/*greeting*/
+#greetingScreen{
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/coding.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    
+}
+
+.intro-greeting{
+    text-align: left;
+    z-index: 10;
+    color: #e4edf8;
+    text-shadow: #6a707a;
+
+}
+
+
+/*about*/
+#about{
+    background-color: #e4edf8;
+    padding: 15% 15%;
+}
+
+.column{
+    flex: 50%;
+
+}
+
+.row{
+ display: flex;
+}
+
+.ucsdlogo{
+ height: 100%;
+ width: 100%;
+margin: 20px 25px 20px 0px;
+    
+
+}
+
+.greeting{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.intro{
+    padding-top: 10%;
+}
+
+.right {
+    float: right;
+    width: 300px;
+    padding: 10px;
+  }
+
+#skills{
+    padding: 5%;
+}
+.carousel-caption{
+    background-color: #e4edf8;
+    opacity: 0.9;
+    border-style: outset;
+    border-color: #6a707a;
+    
+}
+
+
+
+/*cards*/
+
+#projects{
+    padding: 5%;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  .col-lg-3 {
+    float: right;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+
+  
+  .row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+ 
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .col-lg-3 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+
+a.hover{
+    color: #c6b2f3;
+}
+
+
+
+
+
+
+
+
+
+
+.introImg{
+ background-attachment: fixed;
+ background-size: cover;
+ z-index: -14;
+ position: absolute;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #navbar{
+   float: none;
+  }
+}
+
+@media only screen and (max-width:768px){
+    .column{
+        width: 100%;
+    }
+}
+
